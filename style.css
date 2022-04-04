@@ -5,22 +5,33 @@
 body {
     background-color: rgb(187, 194, 226);
   }
-  #caixa-nome {
-    text-align: center ;
+  .caixa-nome {
     background-image: url(sakura.jpg);
-    background-size: cover;
+    background-size:cover;
+    background-position: 50% 25%;
     height: 300px;
-    font-size:30px;
-    
-    @font-face {
-        src: url("fontes/Moyko.ttf") format ("truetype");
-        font-family: Moyko
-    }
+    display: block;
     }
     #caixa-titulo {
-        position: absolute;
-        left: 400px;
-        top: 100px;
+      color: cornflowerblue;
+      font-family: Reenie Beanie;
+      position:absolute;
+      top: 80px;
+      right: 70px;
+      text-align: center;
+      font-size: 80px;      
+    }
+    #barra {
+      background-color: rgb(241, 198, 241);
+      opacity: .6;
+      z-index: 2;
+    }
+    #barra ul li{
+      color: black;
+      display: inline;
+      font-size: 40px;
+      margin: 200px;
+      z-index: 1;
     }
    #minha-foto {
        margin: 20px;
